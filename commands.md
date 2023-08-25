@@ -53,3 +53,16 @@ It will delete an EMPTY folder . `rmdir <foldername>`
 
 #### rm -r
 Here -r flag enables rm to recursively delete all the content of the folder and then delete the folder. `rm -r <foldername>`
+
+
+### Note 
+Suppose we want to add content to a file how we can do that , so what happens is linix terminal bydefault gives access to some text editors that are actually available inside the terminal few of them are vim,emax then there is nano etc.
+ 
+## VIM 
+
+`vim <nameOfFile>` -: using this command if there is any file exists with the same name then we can open the file or if there is no such file then the new file would be created. 
+
+note -: To exit out of vim we have to do we have to first of all press escape then press colon and then press q . 
+* Let's say now we have craeted a file now if we want to edit or write something we will press "i" ( which is nothing but insert )
+* If you want to close the file after saving the changes we can press on escape button and then press ":wq" that's it , it will save our changes
+* And if you want to exit a file without making any changes in the file then press escape and then on ":q!"
